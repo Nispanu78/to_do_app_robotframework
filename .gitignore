@@ -1,0 +1,4 @@
+# created by virtualenv automatically
+/Tests/Results
+/.venv
+/.idea
