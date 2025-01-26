@@ -13,6 +13,7 @@ ${BROWSER} =  chrome
 
 *** Test Cases ***
 
-User should be able to access the provided URL and land on the homepage
+User should be able to land on the homepage, add a tsak with status incomplete and name "test1", validate that task is displayed and heckbox is unticked
     [Documentation]     Access home page
     ToDoApp.Go to landing page
+    ToDoApp.Add a Task
