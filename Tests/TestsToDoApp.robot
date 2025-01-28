@@ -9,7 +9,7 @@ Test Teardown   End Web Test
 ${BROWSER} =  chrome
 
 #Location of test suite and command to start
-#the Robot Framework C:\Users\menhi\Desktop\to_do_app_robot\Tests> python -m robot -d Results ToDoApp.robot
+#the Robot Framework C:\Users\menhi\Desktop\to_do_app_robot\Tests> python -m robot -d results TestsToDoApp.robot
 
 *** Test Cases ***
 

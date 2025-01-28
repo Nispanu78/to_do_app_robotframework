@@ -9,6 +9,6 @@ Resource    ../Locators/Locators.robot
 
 Verify that the provided URL is accessible and that user can land on homepage
     [Documentation]    Open  website
-    set selenium timeout   7s
-    set selenium speed     5s
-    open browser    ${URL}      ${PreferredBrowser}
+    Set Selenium Timeout   7s
+    Set Selenium Speed     5s
+    Open Browser    ${URL}      ${PreferredBrowser}
