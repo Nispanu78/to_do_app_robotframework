@@ -7,6 +7,6 @@ Resource    ../Locators/Locators.robot
 
 *** Keywords ***
 
-Add task with status "Incomplete"
+Add task with status "Incomplete" by clicking on "Add Task" button
     [Documentation]    Add task and leave the status in the default option "Incomplete"
     Click Element       ${AddTaskDetailWindow}

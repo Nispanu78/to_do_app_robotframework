@@ -13,7 +13,9 @@ ${BROWSER} =  chrome
 
 *** Test Cases ***
 
-User should be able to land on the homepage, add a tsak with status incomplete and name "test1", validate that task is displayed and heckbox is unticked
+User should be able to land on the homepage, add a tsak with status incomplete and ToDo name, validate that task is displayed and checkbox is unticked
     [Documentation]     Access home page
     ToDoApp.Go to landing page
-    ToDoApp.Add a Task
+    ToDoApp.Add a task
+    ToDoApp.Add a title to the ToDo
+    ToDoApp.Submit a task
