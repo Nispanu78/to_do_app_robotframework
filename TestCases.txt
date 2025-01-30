@@ -52,12 +52,14 @@ Feature: Checking that it is possible to edit and/or delete a task with each of 
   And I click "Add Task"
   And I choose the status "Incomplete" from the drop-down menu of the main page
   And I assert that "test3" task is visible
+  And I choose the status "All" from the drop-down menu of the main page
+  And I assert that "test3" task is visible
   And I click on the edit button corresponding to the item "test3"
   And I change the current title with "test3_changed"
   And I change the status of the task from "Incomplete" to "Completed"
   And I can click on the "Update Task" button
   And I select "Completed" from the drop-down menu of the main page
-  And I assert that "test3_changed" task is visible
+  When I assert that "test3_changed" task is visible
   Then the task "test3_changed" is shown with the new status on the home page
   When I click on the delete button of task "test3_changed"
   Then the task is deleted
