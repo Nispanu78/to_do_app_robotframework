@@ -8,5 +8,5 @@ Resource    ../Locators/Locators.robot
 *** Keywords ***
 
 Assert CheckBox is unticked
-    [Documentation]    Assert the title of the ToDo is present
+    [Documentation]    Assert checkbox is unticked
     Element Attribute Value Should Be   ${CheckBoxLocator}  ${CheckBoxUnTickedAttribute}    ${CheckBoxUnTickedAttributeValue}

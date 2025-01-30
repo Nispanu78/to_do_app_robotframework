@@ -4,6 +4,10 @@ ${AddTaskDetailWindow}      //button[normalize-space()='Add Task']
 ${InputTitle}               //input[@id='title']
 ${SubmitTask}               //button[@type='submit']
 ${ToDoTitle}                test1
+${SecondToDoTitle}          test2
 ${CheckBoxLocator}          //*[name()="svg"]//*[local-name()="path" and @opacity=0]
+${TickedCheckBoxLocator}    //*[name()="svg"]//*[local-name()="path" and @opacity=1]
 ${CheckBoxUnTickedAttribute}         stroke-dasharray
-${CheckBoxUnTickedAttributeValue}    0px 1px
+${CheckBoxTickedAttribute}           stroke-dasharray
+${CheckBoxUnTickedAttributeValue}    1px 1px
+${StatusDropDownMenu}       //select[@id='type']

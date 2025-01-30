@@ -7,7 +7,6 @@ Resource    ../Locators/Locators.robot
 
 *** Keywords ***
 
-Assert ToDoTitle is present
+Assert second ToDoTitle is present
     [Documentation]    Assert the title of the ToDo is present
-    Page Should Contain     ${ToDoTitle}
-
+    Page Should Contain     ${SecondToDoTitle}
