@@ -8,6 +8,6 @@ Resource    ../TestData/TestData.robot
 
 *** Keywords ***
 
-Input third title of the ToDo
+Input changed third title of the ToDo
     [Documentation]    Add a title
-    Input Text         ${InputTitle}   ${ThirdToDoTitle}
+    Input Text         ${InputTitle}    ${ChangedThirdTitle}
