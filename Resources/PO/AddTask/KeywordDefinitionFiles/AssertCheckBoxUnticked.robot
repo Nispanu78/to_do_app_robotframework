@@ -9,4 +9,4 @@ Resource    ../Locators/Locators.robot
 
 Assert CheckBox is unticked
     [Documentation]    Assert checkbox is unticked
-    Element Attribute Value Should Be   ${CheckBoxLocator}  ${CheckBoxUnTickedAttribute}    ${CheckBoxUnTickedAttributeValue}
+    Element Attribute Value Should Be   ${CheckBoxLocator}  ${CheckBoxUnTickedAttribute}    ${CheckBoxUntickedAttributeValue}

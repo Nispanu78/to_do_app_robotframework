@@ -1,6 +1,6 @@
 *** Settings ***
 Library  SeleniumLibrary
-Resource    ../Locators/Locators.robot
+Resource    ../TestData/TestData.robot
 
 *** Variables ***
 

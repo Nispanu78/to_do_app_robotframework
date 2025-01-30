@@ -1,6 +1,7 @@
 *** Variables ***
 
-${InsertedTitle}    test1
-${SecondInsertedTitle}  test2
+${ToDoTitle}                test1
+${SecondToDoTitle}          test2
+${ThirdToDoTitle}           test3
 ${StatusCompleted}  complete
-${StatusIncomplete}     Incomplete
+${StatusIncomplete}     incomplete

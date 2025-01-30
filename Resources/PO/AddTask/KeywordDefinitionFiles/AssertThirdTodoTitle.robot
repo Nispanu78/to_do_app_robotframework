@@ -7,6 +7,6 @@ Resource    ../TestData/TestData.robot
 
 *** Keywords ***
 
-Assert second ToDoTitle is present
+Assert third ToDoTitle is present
     [Documentation]    Assert the title of the ToDo is present
-    Page Should Contain     ${SecondToDoTitle}
+    Page Should Contain     ${ThirdToDoTitle}

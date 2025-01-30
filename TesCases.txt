@@ -47,17 +47,17 @@ Feature: Checking that it is possible to edit and/or delete a task with each of 
   And the home page of the Todo App is displayed as expected
   And I leave the status "All" from the drop-down menu
   And I click on "Add Task" button
-  And I insert the title "test4"
-  And I choose the status "Incomplete"
+  And I insert the title "test3"
+  And I leave the status as "Incomplete"
   And I click "Add Task"
-  And I choose the status "Incomplete" from the drop-down menu
-  And I assert that "test4" task is visible
-  And I click on the edit button corresponding to the item "test4"
-  And I change the current title with "test4_changed"
+  And I choose the status "Incomplete" from the drop-down menu of the main page
+  And I assert that "test3" task is visible
+  And I click on the edit button corresponding to the item "test3"
+  And I change the current title with "test3_changed"
   And I change the status of the task from "Incomplete" to "Completed"
   And I can click on the "Update Task" button
-  And I select "Completed" from the drop-down menu
-  And I assert that "test4_changed" task is visible
-  Then the task "test4_changed" is shown with the new status on the home page
-  When I click on the delete button of task "test4_changed"
+  And I select "Completed" from the drop-down menu of the main page
+  And I assert that "test3_changed" task is visible
+  Then the task "test3_changed" is shown with the new status on the home page
+  When I click on the delete button of task "test3_changed"
   Then the task is deleted
