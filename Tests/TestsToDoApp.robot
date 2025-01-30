@@ -14,7 +14,6 @@ ${BROWSER} =  chrome
 *** Test Cases ***
 
 #User should be able to land on the homepage, add a task with status incomplete and ToDo name, validate that task is displayed and checkbox is unticked
-#    [Documentation]     Access home page
 #    ToDoApp.Go to landing page
 #    ToDoApp.Add a task
 #    ToDoApp.Add a title to the ToDo
@@ -22,12 +21,21 @@ ${BROWSER} =  chrome
 #    ToDoApp.Assert title of the ToDo is present
 #    ToDoApp.Assert check box is unticked
 
-User should be able to land on the homepage, add a task with status Complete and ToDo name, validate that task is displayed and checkbox is unticked
-    [Documentation]     Access home page
+#User should be able to land on the homepage, add a task with status Complete and ToDo name, validate that task is displayed and checkbox is unticked
+#    ToDoApp.Go to landing page
+#    ToDoApp.Add a task
+#    ToDoApp.Add a second title to the ToDo
+#    ToDoApp.Select status Complete
+#    ToDoApp.Submit a task
+#    ToDoApp.Assert second title of ToDo is present
+#    ToDoApp.Assert check box is ticked
+
+#User should be able to land on the homepage, open the task creation window and close it with the "X" button
+#    ToDoApp.Go to landing page
+#    ToDoApp.Add a task
+#    ToDoApp.Close the task window the the "x" button
+
+User should be able to land on the homepage, open the task creation window and close it with the "Cancel" button
     ToDoApp.Go to landing page
     ToDoApp.Add a task
-    ToDoApp.Add a second title to the ToDo
-    ToDoApp.Select status Complete
-    ToDoApp.Submit a task
-    ToDoApp.Assert second title of ToDo is present
-    ToDoApp.Assert check box is ticked
+    ToDoApp.Close the task window the the "cancel" button

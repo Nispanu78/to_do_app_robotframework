@@ -9,6 +9,8 @@ Resource    ./PO/AddTask/KeywordDefinitionFiles/AssertSecondToDoTitle.robot
 Resource    ./PO/AddTask/KeywordDefinitionFiles/AssertCheckBoxUnticked.robot
 Resource    ./PO/AddTask/KeywordDefinitionFiles/AssertCheckBoxIsTicked.robot
 Resource    ./PO/AddTask/KeywordDefinitionFiles/SelectStatus.robot
+Resource    ./PO/AddTask/KeywordDefinitionFiles/CloseWindowwithX.robot
+Resource    ./PO/AddTask/KeywordDefinitionFiles/CloseWindowwithCancelButton.robot
 
 
 *** Variables ***
@@ -45,5 +47,11 @@ Assert check box is ticked
 
 Select status Complete
     SelectStatus.Select status "Complete"
+
+Close the task window the the "x" button
+    CloseWindowwithX.Close window with "X" button
+
+Close the task window the the "cancel" button
+    CloseWindowwithCancelButton.Close window with "Cancel" button
 
 

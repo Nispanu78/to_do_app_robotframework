@@ -11,3 +11,5 @@ ${CheckBoxUnTickedAttribute}         stroke-dasharray
 ${CheckBoxTickedAttribute}           stroke-dasharray
 ${CheckBoxUnTickedAttributeValue}    1px 1px
 ${StatusDropDownMenu}       //select[@id='type']
+${XButton}                  //div[@class='modal_closeButton__Fg7AM']
+${CanceleButton}            //button[normalize-space()='Cancel']
