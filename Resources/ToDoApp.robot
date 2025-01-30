@@ -3,6 +3,8 @@ Resource    ./PO/AccessHomePage/KeywordDefinitionFiles/HomePage.robot
 Resource    ./PO/AddTask/KeywordDefinitionFiles/AddTask.robot
 Resource    ./PO/AddTask/KeywordDefinitionFiles/InputTitle.robot
 Resource    ./PO/AddTask/KeywordDefinitionFiles/SubmitToDo.robot
+Resource    ./PO/AddTask/KeywordDefinitionFiles/AssertTitleIsPresent.robot
+Resource    ./PO/AddTask/KeywordDefinitionFiles/AssertCheckBoxUnticked.robot
 
 
 *** Variables ***
@@ -22,4 +24,9 @@ Add a title to the ToDo
 Submit a task
     SubmitToDo.Submit task
 
+Assert title of the ToDo is present
+    AssertTitleIsPresent.Assert ToDoTitle is present
+
+Assert check box is unticked
+    AssertCheckBoxUnticked.Assert CheckBox is unticked
 

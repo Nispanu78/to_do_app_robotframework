@@ -19,3 +19,5 @@ User should be able to land on the homepage, add a tsak with status incomplete a
     ToDoApp.Add a task
     ToDoApp.Add a title to the ToDo
     ToDoApp.Submit a task
+    ToDoApp.Assert title of the ToDo is present
+    ToDoApp.Assert check box is unticked
